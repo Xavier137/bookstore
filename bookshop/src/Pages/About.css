@@ -1,0 +1,122 @@
+.section {
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-section {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .content {
+    margin-bottom: 20px;
+  }
+  
+  .Button {
+    text-align: center;
+  }
+  
+  .Button a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .Button a:hover {
+    background-color: #0056b3;
+  }
+  
+  .Social {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .Social a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+  }
+    @media (max-width: 768px) {
+        .Social {
+          margin-top: 10px;
+        }
+  }
+    .Social img {
+        width: 100px;
+  }
+  
+  .image-section {
+    text-align: center;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact,
+  .research,
+  .references {
+    margin-bottom: 20px;
+  }
+  
+  .contact h3,
+  .research h3,
+  .references h3 {
+    color: #333;
+  }
+  
+  .contact p,
+  .research p,
+  .references p {
+    color: #666;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+    }
+  
+    .content-section {
+      flex: 1;
+      margin-right: 20px;
+    }
+  
+    .image-section {
+      flex: 1;
+    }
+  
+    .footer-content {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .contact,
+    .research,
+    .references {
+      flex: 1;
+      margin-bottom: 0;
+    }
+  }
+  
