@@ -13,7 +13,7 @@ const ContactUsPage = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6}>
           <Typography variant="h6" gutterBottom>
-            Contact Information
+            Contact Inforcmation
           </Typography>
           <Typography variant="body1" gutterBottom>
             Address: [Pamba, Soroti District,Uganda]
